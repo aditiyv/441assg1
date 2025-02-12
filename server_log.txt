@@ -1,0 +1,149 @@
+2025-02-11 15:29:09,681 - Server started and listening on localhost:12345
+2025-02-11 15:29:13,934 - Connection from ('127.0.0.1', 55190)
+2025-02-11 15:29:22,624 - Received request: simple|A man, a plan, a canal, Panama!
+2025-02-11 15:29:22,624 - Sent response: Is palindrome: True
+2025-02-11 15:29:36,646 - Received request: simple|Was it a car or a cat I saw?
+2025-02-11 15:29:36,647 - Sent response: Is palindrome: True
+2025-02-11 15:29:41,410 - Received request: simple|Was it a car or a cat I saww
+2025-02-11 15:29:41,410 - Sent response: Is palindrome: False
+2025-02-11 15:29:49,718 - Received request: simple|No 'x' in Nixon
+2025-02-11 15:29:49,718 - Sent response: Is palindrome: True
+2025-02-11 15:29:59,397 - Received request: simple|Hello, World!
+2025-02-11 15:29:59,398 - Sent response: Is palindrome: False
+2025-02-11 15:30:09,995 - Received request: simple|race a car
+2025-02-11 15:30:09,995 - Sent response: Is palindrome: False
+2025-02-11 15:30:23,829 - Received request: complex|civics
+2025-02-11 15:30:23,829 - Sent response: Can form a palindrome: False, Complexity score: -1
+2025-02-11 15:30:40,213 - Received request: complex|ivicc
+2025-02-11 15:30:40,214 - Sent response: Can form a palindrome: True, Complexity score: 3
+2025-02-11 22:55:10,895 - Closed connection with ('127.0.0.1', 55190)
+2025-02-11 22:55:17,549 - Connection from ('127.0.0.1', 56280)
+2025-02-11 22:55:19,872 - Closed connection with ('127.0.0.1', 56280)
+2025-02-11 22:55:23,017 - Connection from ('127.0.0.1', 56282)
+2025-02-11 22:55:29,145 - Received request: complex|ivicc
+2025-02-11 22:55:29,145 - Sent response: Can form a palindrome: True, Complexity score: 3
+2025-02-11 22:55:34,448 - Closed connection with ('127.0.0.1', 56282)
+2025-02-11 22:55:40,558 - Server started and listening on localhost:12345
+2025-02-11 22:55:43,389 - Connection from ('127.0.0.1', 56290)
+2025-02-11 22:55:47,164 - Received request: complex|ivicc
+2025-02-11 22:55:47,164 - Sent response: Can form a palindrome: True, Complexity score: 3
+2025-02-11 22:56:58,403 - Closed connection with ('127.0.0.1', 56290)
+2025-02-11 22:57:02,218 - Server started and listening on localhost:12345
+2025-02-11 22:57:09,487 - Connection from ('127.0.0.1', 56340)
+2025-02-11 22:57:14,345 - Received request: complex|ivicc
+2025-02-11 22:57:14,346 - Sent response: Can form a palindrome: True, Complexity score: 3
+2025-02-11 22:57:53,216 - Closed connection with ('127.0.0.1', 56340)
+2025-02-11 22:58:01,939 - Server started and listening on localhost:12345
+2025-02-11 22:58:05,031 - Connection from ('127.0.0.1', 56354)
+2025-02-11 22:58:07,648 - Received request: complex|ivicc
+2025-02-11 22:58:07,648 - Sent response: Can form a palindrome: True, Complexity score: 3
+2025-02-11 22:58:46,577 - Received request: complex|ivicc
+2025-02-11 22:58:46,579 - Sent response: Can form a palindrome: True, Complexity score: 3
+2025-02-11 22:58:55,742 - Closed connection with ('127.0.0.1', 56354)
+2025-02-11 22:58:59,452 - Server started and listening on localhost:12345
+2025-02-11 22:59:02,898 - Connection from ('127.0.0.1', 56376)
+2025-02-11 22:59:05,163 - Received request: complex|ivicc
+2025-02-11 22:59:05,164 - Sent response: Can form a palindrome: True, Complexity score: 3
+2025-02-11 22:59:41,405 - Closed connection with ('127.0.0.1', 56376)
+2025-02-11 22:59:45,108 - Server started and listening on localhost:12345
+2025-02-11 22:59:49,540 - Connection from ('127.0.0.1', 56394)
+2025-02-11 22:59:51,905 - Received request: complex|ivicc
+2025-02-11 22:59:51,906 - Sent response: Can form a palindrome: True, Complexity score: 3
+2025-02-11 23:02:58,078 - Closed connection with ('127.0.0.1', 56394)
+2025-02-11 23:03:06,896 - Server started and listening on localhost:12345
+2025-02-11 23:03:09,763 - Connection from ('127.0.0.1', 56452)
+2025-02-11 23:03:13,034 - Received request: complex|ivicc
+2025-02-11 23:03:13,035 - Sent response: Can form a palindrome: True, Complexity score: 2
+2025-02-11 23:04:35,026 - Received request: complex|aabbc
+2025-02-11 23:04:35,027 - Sent response: Can form a palindrome: True, Complexity score: 2
+2025-02-11 23:04:43,105 - Received request: complex|racecra
+2025-02-11 23:04:43,106 - Sent response: Can form a palindrome: True, Complexity score: 1
+2025-02-11 23:05:14,597 - Received request: complex|owo
+2025-02-11 23:05:14,597 - Sent response: Can form a palindrome: True, Complexity score: 0
+2025-02-11 23:05:31,578 - Received request: complex|abccba
+2025-02-11 23:05:31,580 - Sent response: Can form a palindrome: True, Complexity score: 0
+2025-02-11 23:05:40,598 - Received request: complex|aabbcc
+2025-02-11 23:05:40,599 - Sent response: Can form a palindrome: True, Complexity score: 1
+2025-02-11 23:06:40,296 - Received request: complex|mmooa
+2025-02-11 23:06:40,297 - Sent response: Can form a palindrome: True, Complexity score: 2
+2025-02-11 23:07:20,693 - Received request: complex|aaabb
+2025-02-11 23:07:20,694 - Sent response: Can form a palindrome: True, Complexity score: 2
+2025-02-11 23:07:26,214 - Received request: complex|abd
+2025-02-11 23:07:26,215 - Sent response: Can form a palindrome: False, Complexity score: -1
+2025-02-11 23:07:33,182 - Received request: complex|2
+2025-02-11 23:07:33,182 - Sent response: Can form a palindrome: True, Complexity score: 0
+2025-02-11 23:07:45,839 - Received request: complex|aabbc
+2025-02-11 23:07:45,839 - Sent response: Can form a palindrome: True, Complexity score: 2
+2025-02-11 23:24:38,416 - Closed connection with ('127.0.0.1', 56452)
+2025-02-11 23:26:02,145 - Server started and listening on localhost:12345
+2025-02-11 23:26:08,129 - Connection from ('127.0.0.1', 56820)
+2025-02-11 23:26:19,614 - Connection from ('127.0.0.1', 56831)
+2025-02-11 23:26:22,751 - Connection from ('127.0.0.1', 56833)
+2025-02-11 23:26:48,832 - Received request: simple|wwee
+2025-02-11 23:26:48,834 - Sent response: Is palindrome: False
+2025-02-11 23:27:00,529 - Received request: complex|Was it a car or a cat I saw?????
+2025-02-11 23:27:00,531 - Sent response: Can form a palindrome: True, Complexity score: 0
+2025-02-11 23:29:15,775 - Received request: complex|iviccci
+2025-02-11 23:29:15,778 - Sent response: Can form a palindrome: False, Complexity score: -1
+2025-02-11 23:29:34,996 - Received request: complex|abb
+2025-02-11 23:29:34,997 - Sent response: Can form a palindrome: True, Complexity score: 1
+2025-02-11 23:29:37,129 - Received request: simple|abba
+2025-02-11 23:29:37,129 - Sent response: Is palindrome: True
+2025-02-11 23:30:02,156 - Received request: complex|raceeera
+2025-02-11 23:30:02,157 - Sent response: Can form a palindrome: False, Complexity score: -1
+2025-02-11 23:30:07,990 - Closed connection with ('127.0.0.1', 56820)
+2025-02-11 23:30:08,797 - Closed connection with ('127.0.0.1', 56831)
+2025-02-11 23:30:13,573 - Closed connection with ('127.0.0.1', 56833)
+2025-02-11 23:42:16,112 - Server started and listening on localhost:12345
+2025-02-11 23:42:18,541 - Connection from ('127.0.0.1', 57248)
+2025-02-11 23:42:23,887 - Received request: simple|2233
+2025-02-11 23:42:23,887 - Sent response: Is palindrome: False
+2025-02-11 23:42:28,826 - Received request: simple|2323
+2025-02-11 23:42:28,827 - Sent response: Is palindrome: False
+2025-02-11 23:42:33,292 - Received request: simple|2332
+2025-02-11 23:42:33,292 - Sent response: Is palindrome: True
+2025-02-11 23:42:41,805 - Received request: complex|1212
+2025-02-11 23:42:41,805 - Sent response: Can form a palindrome: True, Complexity score: 1
+2025-02-11 23:43:10,865 - Received request: simple|!!!!
+2025-02-11 23:43:10,866 - Sent response: Is palindrome: True
+2025-02-11 23:43:17,307 - Received request: simple|!
+2025-02-11 23:43:17,307 - Sent response: Is palindrome: True
+2025-02-11 23:43:44,238 - Received request: simple|1221!
+2025-02-11 23:43:44,239 - Sent response: Is palindrome: True
+2025-02-11 23:43:52,883 - Received request: complex|1212!!!
+2025-02-11 23:43:52,883 - Sent response: Can form a palindrome: True, Complexity score: 1
+2025-02-11 23:44:06,922 - Received request: simple|1 1 1 4 111
+2025-02-11 23:44:06,923 - Sent response: Is palindrome: True
+2025-02-11 23:44:13,740 - Received request: complex|1 2 2 1 1 1 2
+2025-02-11 23:44:13,741 - Sent response: Can form a palindrome: True, Complexity score: 2
+2025-02-11 23:52:02,225 - Closed connection with ('127.0.0.1', 57248)
+2025-02-11 23:52:11,704 - Server started and listening on localhost:12345
+2025-02-11 23:52:14,835 - Connection from ('127.0.0.1', 57407)
+2025-02-11 23:52:17,996 - Received request: complex|ivicc
+2025-02-11 23:52:17,997 - Sent response: Can form a palindrome: True, Complexity score: 2
+2025-02-11 23:52:23,610 - Received request: complex|abba
+2025-02-11 23:52:23,612 - Sent response: Can form a palindrome: True, Complexity score: 0
+2025-02-11 23:56:58,072 - Closed connection with ('127.0.0.1', 57407)
+2025-02-11 23:57:02,172 - Server started and listening on localhost:12345
+2025-02-11 23:57:06,491 - Connection from ('127.0.0.1', 57525)
+2025-02-11 23:58:02,414 - Received request: simple|A man, a plan, a canal, Panama!?? ! @ #
+2025-02-11 23:58:02,415 - Sent response: Is palindrome: True
+2025-02-11 23:59:25,835 - Connection from ('127.0.0.1', 57572)
+2025-02-11 23:59:42,685 - Received request: simple|weeew
+2025-02-11 23:59:42,685 - Sent response: Is palindrome: True
+2025-02-11 23:59:43,154 - Received request: complex|abbbsaab
+2025-02-11 23:59:43,155 - Sent response: Can form a palindrome: False, Complexity score: -1
+2025-02-11 23:59:54,574 - Closed connection with ('127.0.0.1', 57572)
+2025-02-12 00:01:01,863 - Received request: complex|weerbbbw
+2025-02-12 00:01:01,865 - Sent response: Can form a palindrome: False, Complexity score: -1
+2025-02-12 00:02:37,430 - Closed connection with ('127.0.0.1', 57525)
+2025-02-12 00:04:11,615 - Server started and listening on localhost:12345
+2025-02-12 00:04:13,304 - Connection from ('127.0.0.1', 57680)
+2025-02-12 00:04:18,613 - Received request: simple|aww ww a
+2025-02-12 00:04:18,614 - Sent response: Is palindrome: True
+2025-02-12 00:04:31,255 - Received request: simple|a w w w a a
+2025-02-12 00:04:31,256 - Sent response: Is palindrome: False
+2025-02-12 00:04:37,914 - Received request: complex|nnvssvv
+2025-02-12 00:04:37,915 - Sent response: Can form a palindrome: True, Complexity score: 2
+2025-02-12 00:04:48,972 - Received request: complex|ivicc
+2025-02-12 00:04:48,974 - Sent response: Can form a palindrome: True, Complexity score: 2
