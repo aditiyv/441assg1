@@ -13,6 +13,7 @@ This project is designed to **enhance understanding of networking, concurrency, 
 - Compiling and Running Server and Client
 - Example Inputs and Outputs
 - Assumptions and Limitations
+- Encryption
 
 ## 🚀 Compiling and Running Server and Client
 Before running the project, make sure you have Python 3 installed. You can check by running:
@@ -103,3 +104,23 @@ Server response: "Can form a palindrome: True, Complexity score: 0"  # No swaps 
     - The complexity score calculation assumes an optimal solution and may not consider all possible rearrangements.
     - The encryption used (XOR cipher) is weak and should not be relied upon for real-world security.
     - The system does not handle extremely large inputs efficiently, as the palindrome checking and rearrangement calculations may become computationally expensive.
+
+## 🎯 Encryption
+
+For the extra credit portion of this assignment, I implemented a simple encryption mechanism using a XOR cipher. Both the client and server use this mechanism to encrypt outgoing messages and decrypt incoming messages, ensuring that the data transmitted over the network is not sent in plain text. Although this method is not secure for production environments, it demonstrates a basic understanding of encryption and decryption concepts.
+
+### How It Works
+
+1. **XOR Operation:**  
+   The encryption is based on the XOR (exclusive OR) operation. Each character in the message is converted to its ASCII integer value using Python’s `ord()` function. The XOR operation is then applied between this integer and a fixed key (`5` in my case). The result is converted back to a character using `chr()`. Because the XOR operation is symmetric, applying it twice (with the same key) restores the original message.
+
+2. **Implementation Details:**  
+   The encryption/decryption function is implemented as follows in both the client and server code:
+
+   ```bash
+   ENCRYPTION_KEY = 5  # Simple XOR key for encryption/decryption
+
+   def xor_encrypt_decrypt(data, key = ENCRYPTION_KEY):
+       """ Encrypts or decrypts data using XOR cipher with a given key """
+       return ''.join(chr(ord(char)^key) for char in data)
+    ```
